@@ -1,0 +1,14 @@
+{
+  "name": "pallas-proxy",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker proxy for gdmf.apple.com that decodes JWS-signed responses",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240512.0",
+    "typescript": "^5.4.0"
+  }
+}

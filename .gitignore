@@ -1,3 +1,9 @@
+### Node template
+node_modules/
+.wrangler/
+*.log
+.dev.vars
+
 ### VisualStudioCode template
 .vscode/*
 !.vscode/settings.json
