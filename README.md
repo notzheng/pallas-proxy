@@ -48,8 +48,9 @@ Entry point is `src/index.ts`.
 
 ## Deploy
 
-Deployment is wired up through the Cloudflare dashboard's Git integration, so no
-`wrangler` config lives in this repo. To serve the custom hostnames, add
+Deployment runs through the Cloudflare dashboard's Git integration, which
+executes `npx wrangler deploy`. The Worker name and entry point live in
+[`wrangler.jsonc`](./wrangler.jsonc). To serve the custom hostnames, add
 `gdmf.notzheng.com` and `gdmf-ados.notzheng.com` as Custom Domains on the Worker
 (the `notzheng.com` zone must be on Cloudflare DNS).
 
